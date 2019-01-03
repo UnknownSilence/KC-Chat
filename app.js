@@ -3,7 +3,7 @@ const client = require("socket.io");
 const express = require("express");
 
 const MONGODB_URI =
-  "mongodb://TrentThomasHardy@yahoo.com:UnknownSilence1@ds247944.mlab.com:47944/kc-chat";
+  "mongodb://UnknownSilence1:assassingamingmc123@ds247944.mlab.com:47944/kc-chat";
 
 var port = process.env.PORT || 3000;
 
