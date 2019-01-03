@@ -1,0 +1,31 @@
+html,
+body {
+    width: 100%;
+    height: 100%;
+    background-color: #313131 !important;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+
+#messages {
+    height: 700px;
+    color: black;
+}
+
+.row,
+.container {
+    width: 100% !important;
+}
+
+#info {
+    z-index: 5;
+    display: block;
+    font-size: 0.9em;
+    color: white;
+    width: 10%;
+    height: 30%;
+    position: fixed;
+    top: 0;
+    left: 0;
+}

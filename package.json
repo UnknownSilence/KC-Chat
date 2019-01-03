@@ -1,0 +1,19 @@
+{
+  "name": "kcchatroom",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js"
+  },
+  "keywords": [
+    "application"
+  ],
+  "author": "Trent Hardy",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.16.4",
+    "mongodb": "^2.2.33",
+    "socket.io": "^2.2.0"
+  }
+}
