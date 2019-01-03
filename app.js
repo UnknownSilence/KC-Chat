@@ -2,8 +2,7 @@ const mongo = require("mongodb").MongoClient;
 const client = require("socket.io");
 const express = require("express");
 
-var MONGODB_URI =
-  "mongodb://UnknownSilence1:assassingamingmc123@ds247944.mlab.com:47944/kc-chat";
+var MONGODB_URI = ' too secret for github to see :)'
 
 var port = process.env.PORT || 3000;
 
