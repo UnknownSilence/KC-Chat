@@ -2,6 +2,8 @@ const mongo = require('mongodb').MongoClient;
 const client = require('socket.io');
 const express = require('express');
 
+const MONGODB_URI = 'mongodb://<dbuser>:<dbpassword>@ds247944.mlab.com:47944/kc-chat';
+
 
 var port = process.env.PORT || 3000;
 
@@ -15,7 +17,7 @@ app.use(express.static('public'))
 var io = client(server);
 
 // Connect to mongo
-mongo.connect('mongodb://127.0.0.1/mongochat', function (err, db) {
+mongo.connect(MONGODB_URI, function (err, db) {
     if (err) {
         throw err;
     }
