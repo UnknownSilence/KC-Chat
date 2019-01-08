@@ -58,7 +58,7 @@ mongo.connect(
         // Check for name and message
         if (name == "" || message == "") {
           // Send error status
-          sendStatus("Please enter a name and message");
+          sendStatus("Please enter a valid name and message");
         } else {
           // Insert message
           chat.insert(
